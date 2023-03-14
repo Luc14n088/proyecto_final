@@ -103,8 +103,10 @@ ul{
   color: black;
   text-shadow: 0px 0px 2px black;
   text-align: left;
-  border-radius: 6px;
+  border-radius: 6px 6px 6px 6px;
   padding: 6px 15px ;
+
+  filter: drop-shadow(0px 0px 4px black);
 
   /* Position the tooltip */
   position: absolute;
@@ -112,7 +114,17 @@ ul{
   left:65px;
   z-index: 1;
 }
+.tooltiptext:before{ 
+content:"";
+width: 0;
+height: 0;
+position: absolute;
+margin: -20px 0 0 40px;
+border-bottom: 20px solid rgb(212, 175, 55);
+border-right: 18px solid transparent;
+border-left: 18px solid transparent;
 
+}
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
