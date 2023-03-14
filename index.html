@@ -1,123 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>CV - Philip Mckinney</title>
-    <link rel="icon" type="image/x-icon" href="img/cv.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <meta property="og:title" content="Curriculm Vitae - Philip Mckinney" />
-    <link rel="stylesheet"  href="style.css">
-	</head>
-
-
-  <style>
-
-    main {
-        column: count 2;
-        column-gap: 8px;
-        column-rule: 1px solid #bbb;
-        column-width: 300px;
-	    column-width: 140px;
-               
+	<meta charset="UTF-8">
+	 <title>CV - Philip Mckinney</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="cv.ico">
+	<script>
+	function showDiv1(){
+        document.getElementById('sm').style.display = '';
+        document.getElementById('intp').style.display = 'none';
+        document.getElementById('logros').style.display = 'none';
     }
-    h1 {
-        column-span: none;
+ 
+    function showDiv2(){
+        document.getElementById('sm').style.display = 'none';
+        document.getElementById('intp').style.display = '';
+        document.getElementById('logros').style.display = 'none';
     }
+    function showDiv3(){
+        document.getElementById('sm').style.display = 'none';
+        document.getElementById('intp').style.display = 'none';
+        document.getElementById('logros').style.display = '';
+    }
+</script>
+</head>
+<body>
+	<header>
+		<img class="perfil" align="left" src="PM.jpg">
+		<h1 align="center">Curriculum Vitae</h1>
+		<h1 align="center">Philip Mckinney </h1>
+		<nav class="menu">
+						<ul>
+							<li><button class="bt2" onclick="showDiv1()">Sobre Mí</button></li>
+							<li><button class="bt2" onclick="showDiv2()">Intereses Personales</button></li>
+							<li><button class="bt2" onclick="showDiv3()">Logros</button></li>
+							
+						</ul>
+					</nav>
+	</header>
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
 
-#myBtn:hover {
-  background-color: none;
-}   
-  </style>
-   <body>
-    <div class="contenedor">
-      <title>Curriculum Vitae</title>  
-    <main>
-        </article>    
-     
+
+
+
+	<section id="sm" style="">
+           
+            <div style="width:300px; height:330px ;float: left;"><img class= "vanilla" src="vanilla.png" ></div>
+            
+              <div style="width:700px; height:380px ;float: right;margin-top: 20px;font-family:'Libre Baskerville', cursive;"> Philip Mckinney es el director ejecutivo y cofundador de Vanilla Mille Crepe, una empresa que se ha convertido en un referente en la industria gastronómica gracias a su especialidad en la elaboración de deliciosos pasteles de crepe. Además de su rol como director ejecutivo, también se desempeña como director de la cocina de Vanilla Mille Crepe Kitchen, donde lidera a un equipo de chefs expertos en la creación de los mejores pasteles de crepe del mercado.
+
+Con más de 20 años de experiencia en la industria de las franquicias,  Philip Mckinney ha demostrado ser un líder visionario y un experto en la expansión de negocios exitosos. Su carrera en el sector de las franquicias ha sido impresionante, habiendo participado en la creación y el desarrollo de algunas de las marcas más reconocidas y exitosas de la industria.
+
+Su conocimiento profundo del mercado y su capacidad para identificar oportunidades han sido claves en su éxito como empresario.
+
+En definitiva,  Philip es una figura influyente en la industria de las franquicias, cuya experiencia y liderazgo han sido fundamentales para el éxito de Vanilla Mille Crepe y de otras marcas de la industria..</div>
+     </section>
+
         
-        
-         <h2>
-            <img src="img/PM.jpg" high="300px" width="300px">
-            <title>Philip Mckinney</title> 
-            <footer>
-            <h1>Empresario</h1> 
-            </footer>
-        </h2>
-                  
-       <section>
-            <h3>Sobre mí</h3>
-            <p>
-              Director ejecutivo y cofundador de Vanilla Mille Crepe Sdn Bhd, también es director de Vanilla Mille Crepe Kitchen Sdn Bhd. Tiene una amplia experiencia en la industria de las franquicias.
-</p>
-        </section>
-        
-            <ul>
-            <h2>Datos de contacto</h2>
-            <li>Teléfono: (261)543 678</li>
-            <li>Web: www.philipmckinney.com.ar</li>
-            <li>Mail: info@philipmckinney.com.ar</li>
-            <li>Instagram: @philipmckinney</li>
-            <li>Linkedin: @philipmckinney</li>    
-        </ul>
                 
-        <article>
-            <h2>Intereses personales</h2>
-            <p> Philip Mckinney es una persona eminente y forma parte de varias asociaciones de empresarios y posee múltiples marcas en el entorno empresarial local..</p>
+        <article id="intp" style="display: none;width:950px;height:400px;float:right ;font-family:'Libre Baskerville', cursive;text-align: justify;">
+            <h2 align="center" >Intereses personales</h2>
+            <p>Philip McKinney es un destacado empresario con una amplia trayectoria en el mundo de los negocios. Además de ser un exitoso emprendedor, también es conocido por su dedicación a la comunidad empresarial local, como lo demuestra su participación activa en varias asociaciones de empresarios.
 
+Entre sus múltiples logros se encuentran la creación y desarrollo de varias marcas exitosas en distintas industrias. Desde una temprana edad, McKinney se interesó por el mundo de los negocios y comenzó a desarrollar su visión empresarial. A través de años de trabajo duro y determinación, logró convertirse en uno de los empresarios más exitosos de la región.
+
+Como miembro activo de varias asociaciones de empresarios, McKinney se dedica a apoyar y fomentar el crecimiento de la comunidad empresarial local. Ha participado en distintas iniciativas y proyectos que han tenido un impacto positivo en la economía local y ha sido un mentor y modelo a seguir para otros empresarios jóvenes.
+
+En resumen, Philip McKinney es una persona eminente y altamente respetada en la comunidad empresarial local. Su visión, dedicación y compromiso con la excelencia han sido fundamentales para su éxito como empresario y su impacto en la economía local.</p>
+
+        </article>
+
+         <article id="logros" style="display: none; width:900px ; height:350px; float:right; font-family:'Libre Baskerville', cursive;text-align: justify"  >
         
-
-         
-        <ul>
-            <h2>Logros</h2>
-               <li>Ha recibido varios premios, incluidos los 100 jóvenes emprendedores más influyentes de 2019 y el premio a la mejor marca de Brandlaureate 2019</li>
-               <li>Recientemente, en septiembre de 2020, logró el Libro de récords de Malasia por tener la cadena Mille Crepe más grande de Malasia por tener la mayor cantidad de puntos de venta en todo el país</li>
+            <h2 align="center">Logros</h2>
+               <p>Ha demostrado ser un empresario excepcional con múltiples logros y reconocimientos en su carrera. Entre ellos, ha recibido varios premios importantes que lo destacan como uno de los jóvenes emprendedores más influyentes de su generación. En 2019, fue honrado con el reconocimiento como uno de los 100 jóvenes emprendedores más influyentes del año. Además, en el mismo año, recibió el premio a la mejor marca en los Brandlaureate Awards, lo que representa un logro destacado en el campo del marketing y la marca en su industria.</p>
+               <p>En septiembre de 2020, estableció un nuevo récord en la industria de la pastelería, al conseguir el Libro de récords de Malasia por tener la cadena Mille Crepe más grande del país con la mayor cantidad de puntos de venta en todo el país. Este hito se logró gracias a su habilidad para desarrollar una estrategia de expansión exitosa y su capacidad para liderar y gestionar un equipo de profesionales dedicados en cada punto de venta.</p>
                
-        </ul>    
-        
+            
+        </article>
 
-     </main>
-     
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   <footer>
+            <ul>
+            <h2>Contacto</h2>
+            <li><a href="+54261543678"><img src="whatsapp.png" width="30px" height="30px"> </a></li>
+            <li><a href="www.philipmckinney.com.ar"><img src="navegador.png" width="30px" height="30px"> </a></li></li>
+            <li><a href="info@philipmckinney.com.ar"><img src="email.png" width="30px" height="30px"> </a></li>
+            <li><a href="@philipmckinney"><img src="instagram.png" width="30px" height="30px"> </a></li>
+            <li><a href="@philipmckinney"><img src="linkedin.png" width="30px" height="30px"> </a></li>    
+        </ul>
+    </footer>
 
-    
-    
-    
-    <script>
-    let mybutton = document.getElementById("myBtn");
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-    </div>
    </body>
     
 </html>
+</body>
